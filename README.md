@@ -1,12 +1,14 @@
+![version](https://img.shields.io/github/v/tag/Reefwing-Software/MultiWiiConf) ![license](https://img.shields.io/badge/license-MIT-green) ![release](https://img.shields.io/github/release-date/Reefwing-Software/MultiWiiConf?color="red") ![open source](https://badgen.net/badge/open/source/blue?icon=github)
+
 # MultiWii Configurator (MultiWiiConf)
 
- A fork of [version 2.4 of the MultiWii Configurator](https://github.com/xdu-aero-association/MultiWii_2_4). Updated for Processing 3, to allow testing with the NexgenMSP (MultiWii Serial Protocol) Arduino library.
+ A fork of [version 2.4 of the MultiWii Configurator](https://github.com/xdu-aero-association/MultiWii_2_4). Updated for Processing 3, to allow testing with the [ReefwingMSP](https://github.com/Reefwing-Software/Reefwing-MSP) (MultiWii Serial Protocol) Arduino library. ReefwingMSP can be downloaded from the [Reefwing Software GitHub Repository](https://github.com/Reefwing-Software) or via the Arduino IDE Library Manager.
 
  The MultiWii Configurator was designed for configuring, simulating and calibrating Radio Control (RC) vehicles which communicate using the MultiWii Serial Protocol (MSP).
 
  ## MultiWii Serial Protocol (MSP)
 
-The MultiWii Serial Protocol was originally created for use with the MultiWii Configurator (a Processing application like the Nexgen Configurator) to control a multirotor RC model. The first draft of the protocol was defined in 2012 and was was initially developed to support Nintendo Wii console gyroscopes and accelerometers (hence the name).
+The MultiWii Serial Protocol was originally created for use with the MultiWii Configurator (a Processing application like the Reefwing Configurator) to control a multirotor RC model. The first draft of the protocol was defined in 2012 and was was initially developed to support Nintendo Wii console gyroscopes and accelerometers (hence the name).
 
 It is now used by a number of open source flight controllers like ArduPilot, the BetaFlight/CleanFlight family, HackFlight and iNav.
 
